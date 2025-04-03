@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium</title>
+    <style>
+            body {
+                margin: 0;
+                font-family: 'Georgia', serif;
+                background-color: #f7f7f7;
+            }
+
+            .navbar {
+                background-color: #f7f3eb; 
+                border-bottom: 1px solid #e0e0e0; 
+                padding: 10px 0;
+                position: fixed;
+                width: 100%;
+                top: 0;
+                left: 0;
+                z-index: 1000;
+            }
+
+            .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            .logo {
+                font-size: 24px;
+                font-weight: bold;
+                font-family: 'Merriweather', serif; 
+                text-decoration: none;
+                color: #222;
+            }
+
+            .nav-links {
+                display: flex;
+                gap: 20px;
+            }
+
+            .nav-links a {
+                text-decoration: none;
+                color: #222;
+                font-size: 16px;
+                font-weight: 400;
+                transition: color 0.3s ease;
+            }
+
+            .nav-links a:hover {
+                color: #000;
+            }
+
+            .cta-button {
+                background-color: #000;
+                color: #fff;
+                padding: 8px 16px;
+                border-radius: 24px;
+                text-decoration: none;
+                font-size: 16px;
+                transition: background-color 0.3s ease;
+            }
+
+            .cta-button:hover {
+                background-color: #333;
+            }
+            body {
+                margin: 0;
+                font-family: 'Georgia', serif;
+                background-color: #f7f3eb;
+            }
+
+            .hero-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px;
+                background-color: #f7f3eb;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+
+            .hero-content {
+                max-width: 50%;
+            }
+
+            .hero-content h1 {
+                font-size: 72px;
+                font-weight: bold;
+                color: #222;
+                margin: 0 0 20px 0;
+            }
+
+            .hero-content p {
+                font-size: 20px;
+                color: #666;
+                margin: 0 0 30px 0;
+            }
+
+            .cta-button {
+                display: inline-block;
+                background-color: #000;
+                color: #fff;
+                padding: 15px 30px;
+                border-radius: 24px;
+                text-decoration: none;
+                font-size: 18px;
+                transition: background-color 0.3s ease;
+            }
+
+            .cta-button:hover {
+                background-color: #333;
+            }
+
+            .hero-image img {
+                margin-left:400px;
+                max-width: 70%;
+                height: auto;
+                overflow: hidden;
+                object-fit: cover;
+            }
+
+            .footer {
+                background-color: #f7f3eb;
+                text-align: center;
+                padding: 20px;
+                border-top: 1px solid #ddd;
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+            }
+
+            .footer ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-block;
+            }
+
+            .footer ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+            .footer ul li a {
+                text-decoration: none;
+                color: #666;
+                font-size: 14px;
+                transition: color 0.3s ease;
+            }
+
+            .footer ul li a:hover {
+                color: #000;
+            }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Gauram</a>
+            <nav class="nav-links">
+                <a href="">instagram</a>
+                <a href="">youtube</a>
+                <a href="">facebook</a>
+                <a href="#">Sign in</a>
+            </nav>
+            <a href="#" class="cta-button">Get started</a>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Human Stories & Ideas</h1>
+            <p>A place to read, write, and deepen your understanding</p>
+            <a href="#" class="cta-button">Start reading</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://miro.medium.com/v2/format:webp/4*SdjkdS98aKH76I8eD0_qjw.png" alt="xyz.jpg">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Text to speech</a></li>
+            <li><a href="#">Teams</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
